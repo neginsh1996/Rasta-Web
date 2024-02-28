@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rasta Web</title>
+    <link rel="stylesheet" href="./main.css">
+
+    <!------swiper link------->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!------Header section------->
+    <header class="sticky">
+        <nav class="navbar">
+            <div class="nav-center">
+                <div class="nav-header">
+                    <h1 class="logo">Rasta Web</h1>
+                    <div class='bx bx-moon' id="darkMode-icon"></div>
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox" class="toggle" id="toggle">
+                        <div class="bars" id="bar1"></div>
+                        <div class="bars" id="bar2"></div>
+                        <div class="bars" id="bar3"></div>
+                    </label>
+                </div>
+
+                <ul class="nav-links" id="nav-links">
+                    <li><a class="nav-link scroll-link" href="#home">خانه</a></li>
+                    <li><a class="nav-link scroll-link" href="#about">درباره ما</a></li>
+                    <li><a class="nav-link scroll-link" href="#service">خدمات</a></li>
+                    <li><a class="nav-link scroll-link" href="#portfolio">محصولات</a></li>
+                    <li><a class="nav-link scroll-link" href="#contact">ارتباط با ما</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!------Home section------->
+    <section class="home" id="home">
+        <div class="home-contant">
+            <div class="home-text">
+                <h3>سلام</h3>
+                <h1>ما تیم رستا وب هستیم.</h1>
+                <p>
+                رستا وب در حـال حاضـر بـا ۱۷ سـال سابقه، یکـی از نقش آفرینان اصلی بـازار سخت افزار کشور است. ما همواره اصل مشتری مداری را سرلوحه کار خود قرار داده‌ایم و تلاش داشته‌ایم تا از طریق مدیریت ارتباط بــا مشــتریان، بــه نیازهای واقعی‌شان دســت یافتـه و بـا ارائـه مشـاوره و راهکارهای مختلف، رضایتشان را تامین نماییم.
+                </p>
+                <div class="icon">
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-linkedin'></i>
+                </div>
+                <button class="btn">اطلاعات بیشتر</button>
+            </div>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3>توسعه وب</h3>
+                </div>
+
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-camera'></i>
+                    <h3>عکاسی</h3>
+                </div>
+
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>طراحی وب</h3>
+                </div>
+
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-video'></i>
+                    <h3>فیلمبرداری</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-image">
+            <img src="./image/home.png" alt="">
+        </div>
+    </section>
+
+    <!------About section------->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="./image/about.png" alt="">
+            </div>
+            <div class="about-text">
+                <h1>درباره <span>ما</span></h1>
+                <h3>سلام ، ما اینجا هستیم تا بهترین خدمات را در اختیارتان قرار دهیم.</h3>
+                <p>
+                    مدیریت یکپارچه شرکت بـا بیـش از ۱۷ سال سابقه فعالیت در بـازار سخت افزار، بهره مندی از نیروی انسانی متخصص، استقرار استانداردهای سیستم مدیریت کیفیت، سیستم رضایت‌مندی مشتریان و سیستم مدیریت شکایات را بـه منظـور تحقـق چشـم انـداز و اهداف کلان خود، در دستور کار قرار داده است.
+                </p>
+                <button class="btn">بیشتر بخوانید</button>
+            </div>
+        </div>
+    </section>
+
+    <!------Services section------->
+    <section class="service" id="service">
+        <div class="service-center">
+            <h1>خدمات <span>ما</span></h1>
+        </div>
+        <div class="service-container">
+            <div class="box">
+                <div class="icons">
+                    <i class='bx bx-code-alt' ></i>
+                </div>
+                <h1>استعلام گارانتی</h1>
+                <p>
+                    استفاده غیر اصولی از دستگاه و عمل نکردن به استاندارد های تعیین شده مانند استفاده برای سیستم ماینینگ گارانتی را باطل میکند.
+                </p>
+                <button class="btn">بیشتر بخوانید</button>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <i class='bx bxs-paint'></i>
+                </div>
+                <h1>گزارش تخلف</h1>
+                <p>
+                    چنانچه هنگام خرید محصولات با تخلفی از طرف تیم ما مواجه شدید حتما از طریق راه های ارتباطی با ما درمیان بگذارید
+                </p>
+                <button class="btn">بیشتر بخوانید</button>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <i class='bx bx-signal-5'></i>
+                </div>
+                <h1>بازاریابی دیجیتال</h1>
+                <p>
+                    می‌توان گفت که اگر کسب و کاری از روش‌های دیجیتال برای بازاریابی استفاده نکند، مشتریان احتمالی بسیار زیادی را از دست می‌دهد.
+                </p>
+                <button class="btn">بیشتر بخوانید</button>
+            </div>
+        </div>
+    </section>
+
+    <!------Portfolio section------->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-center">
+            <h1>پروژه های <span>بزرگ</span></h1>
+        </div>
+        <div class="portfolio-container">
+            <div class="boxes">
+                <div class="portfolio-img">
+                    <img src="./image/portfolio-1.jpg" alt="">
+                </div>
+                <div class="portfolio-text">
+                    <h1>کیبورد های بلوتوثی</h1>
+                    <p>
+                    کیبوردهای بلوتوثی یکی از انواع صفحه کلیدها هستند که طرفداران زیادی را به خود اختصاص داده‌اند.
+                    <div class="portfolio-icon">
+                        <i class='bx bx-link-external'></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="portfolio-img">
+                    <img src="./image/portfolio-2.jpg" alt="">
+                </div>
+                <div class="portfolio-text">
+                    <h1>محصولات اپل</h1>
+                    <p>
+                        مک بوک ها لپ‌تاپ‌های تولید شده توسط شرکت اپل هستند که از سیستم عامل مک‌اواس استفاده می‌کنند. 
+                    </p>
+                    <div class="portfolio-icon">
+                        <i class='bx bx-link-external'></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="portfolio-img">
+                    <img src="./image/portfolio-3.jpg" alt="">
+                </div>
+                <div class="portfolio-text">
+                    <h1>انواع برند ها</h1>
+                    <p>
+                        محصولات دیجیتالی که کاربردهای بسیاری دارند در بازاریابی و مارکتینگ بسیار مورد استفاده قرار می گیرند.  
+                    </p>
+                    <div class="portfolio-icon">
+                        <i class='bx bx-link-external'></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="portfolio-img">
+                    <img src="./image/portfolio-4.jpg" alt="">
+                </div>
+                <div class="portfolio-text">
+                    <h1>لب تاپ های تخصصی</h1>
+                    <p>
+                        از سری لپ‌تاپ‌های گیمینگ بسیار باکیفیت ، طراحی بسیار شکیل همراه با تاچ‌ پدی دقیق و روان
+                    </p>
+                    <div class="portfolio-icon">
+                        <i class='bx bx-link-external'></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="portfolio-img">
+                    <img src="./image/portfolio-5.jpg" alt="">
+                </div>
+                <div class="portfolio-text">
+                    <h1>مانیتورهای گیمینگ</h1>
+                    <p>
+                        
+                     مانیتور یا صفحه نمایش یکی از قطعات اصلی خارجی کیس محسوب می‌شود. انتخاب و خرید مانیتور مناسب با وجود تنوع بالا و ویژگی‌های مورد نیاز کاربران ممکن است کمی پیچیده به نظر برسد.
+                    </p>
+                    <div class="portfolio-icon">
+                        <i class='bx bx-link-external'></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="portfolio-img">
+                    <img src="./image/portfolio-6.jpg" alt="">
+                </div>
+                <div class="portfolio-text">
+                    <h1>سیستم خانگی</h1>
+                    <p>
+                        سیستم پیشنهادی ما در این مقاله حداکثر قیمتی تا 15 میلیون تومان دارد و به طور کلی جزو سیستم های با کاربری عادی و خانگی محسوب می شود.  
+                    </p>
+                    <div class="portfolio-icon">
+                        <i class='bx bx-link-external'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------testimonial design------->
+    <div class="testimolial-container">
+        <h2 class="heading">سوالات <span>متداول</span></h2>
+        <div class="textimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="./image/profil-3.jpg" alt="">
+                        <h3>زمان تحویل کالا</h3>
+                        <p>
+                            شما هر محصولی در هر زمانی بخرید و ثبت کنید، در صورتی که تهران باشید، به طور معمول تا دو روز بعد سفارش شما تحویل پیک داده میشه و خیلی زود به دستتون میرسه. و اگر در شهرستان باشید سفارشتون تا ۴۸ ساعت بعد به پُستِ ویژه تحویل داده میشه و از اون به بعد با توجه به شهری که هستید، بسته شما بین یک تا سه روز توسط شرکت پُستِ ویژه به دستتون میرسه و پیامک کد رهگیری هم براتون ارسال میشه.
+                        </p>
+                    </div>
+
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="./image/profil-1.jpg" alt="">
+                        <h3>وضعیت سفارش</h3>
+                        <p>
+                            برای اطلاع از وضعیت ارسال سفارشاتتون می‌تونید خیلی راحت به صفحه پروفایل کاربریتون مراجعه کنید، سفارشتون در هر مرحله‌ای که باشه بهتون اطلاع داده میشه، اگر از این قسمت سوالی هم دارید می‌تونید به راهنمای مشاهده وضعیت سفارشات محصول مراجعه کنید و با مطالعه کاملش جواب سوالاتتون رو پیدا کنید.
+                        </p>
+                    </div>
+
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="./image/profil-2.jpg" alt="">
+                        <h3>گارانتی محصولات</h3>
+                        <p>
+                        بیشتر محصولات موجود در سایت از گارانتی برخوردار هستن، اما ممکنه زمان خرید در سایت، با کالایی مواجه بشین که گارانتی دیگه‌ای داشته باشه، در این صورت با توجه به این موضوع که گارانتی درج شده روی هر محصول، قطعا پاسخگوی شما خواهد بود رو معرفی کرده که یک گارانتی مکمل گارانتی اصلی محصول خریداری شده شماست.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!------Contact section------->
+    <section class="contact" id="contact">
+        <div class="contact-center">
+            <h1>ارتباط <span> با ما</span></h1>
+        </div>
+        <form>
+            <div class="input-box">
+                <input type="text" placeholder="نام کامل">
+                <input type="email" placeholder="آدرس ایمیل">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="شماره تماس">
+                <input type="email" placeholder="موضوع ایمیل">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="توضیحات"></textarea>
+            <button class="btn">ارسال پیام</button>
+        </form>
+    </section>
+
+    <!------Footer section------->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>copyright &copy; Design by negin || تمامی حقوق محفوظ است</p>
+        </div>
+        <div class="footer-icon">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+
+    <!------swiper js------->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--------Scroll page--------->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!----------script src--------->
+    <script src="./java.js"></script>
+</body>
+</html>
